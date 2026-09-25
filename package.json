@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-paypal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PayPal MCP Pack — read-only access to PayPal transactions, orders, invoices, and disputes.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-paypal": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "paypal"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-paypal"
+    "url": "git+https://github.com/pipeworx-io/mcp-paypal.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-7d3e829393621c9957a76b0d96a339787be73a41227f3b5bdf7ab728be41ad27",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }

@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/paypal",
-  "title": "paypal",
+  "title": "Paypal",
   "description": "PayPal MCP Pack — read-only access to PayPal transactions, orders, invoices, and disputes.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/paypal",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-paypal",

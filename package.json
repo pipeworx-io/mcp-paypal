@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-paypal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "PayPal MCP Pack — read-only access to PayPal transactions, orders, invoices, and disputes.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-7d3e829393621c9957a76b0d96a339787be73a41227f3b5bdf7ab728be41ad27",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-44bea6c76aa5daab24ccc2bbde9aaba7c9c51013acb74fdbb9cdf28d3f6a1c58",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }
